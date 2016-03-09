@@ -57,7 +57,7 @@ class etckeeper (
   }
 
   $gitpackage = $::operatingsystem ? {
-    /(?i-mx:ubuntu|debian)/                           => 'git-core',
+    /(?i-mx:ubuntu|debian)/                           => 'git',
     /(?i-mx:centos|fedora|redhat|oraclelinux|amazon)/ => 'git',
   }
 
